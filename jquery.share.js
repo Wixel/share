@@ -14,10 +14,11 @@
         // Get data to share
         shareTitle = $('.share-title').text(),
         shareSubtitle = $('.share-sub').text(),
-        shareBody = $('.share-body').text(),
+        // shareBody = $('.share-body').text(),
+        // twitterHandle = 'wixelhq', - add into URL: &via=wixelhq
         
         // Create the URL's
-        tweeturl = 'http://twitter.com/share?url='+encodeURI(pathname)+'&via=wixelhq&text='+shareTitle+' '+shareSubtitle,
+        tweeturl = 'http://twitter.com/share?url='+encodeURI(pathname)+'&text='+shareTitle+' '+shareSubtitle,
         fburl = 'http://www.facebook.com/sharer.php?u='+pathname,
         gpurl = 'https://plus.google.com/share?url='+pathname,
         liurl = 'https://www.linkedin.com/shareArticle?mini=true&url='+pathname+'&title='+shareTitle+'&summary='+shareSubtitle;
