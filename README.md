@@ -9,4 +9,4 @@ Adding it to your site or app:
 
 - Add `share-title` class to the heading or bit of text you want to share
 - Add `share-sub` class for additional text
-- Add `share-twiiter, share-fb, share-gplus, share-linkedin` to the anchor elements.
+- Add `share-twitter, share-fb, share-gplus, share-linkedin` to the anchor elements.
